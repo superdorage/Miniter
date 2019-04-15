@@ -1,0 +1,133 @@
+body {
+  background-color: #e6e6e6;
+}
+
+div {
+  //border: 1px solid red;
+  box-shadow: gray;
+  height: auto;
+  width: 80%;
+}
+
+p {
+  //border: 1px solid green;
+  margin: 10px;
+}
+
+.my-status {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  float: left;
+  margin-right: 30px;
+}
+
+.status-bar {
+  width: auto;
+  height: 80px;
+  margin: 0 0 0 0px;
+  background-color: #2DAFFF;  
+}
+
+.myname {
+  text-align: center;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.tweets {
+  color: gray;
+  font-size: 14px;
+  padding-top: 50px;
+}
+
+.num-of-my-tweets {
+  color: #2DAFFF;
+  font: 20px arial;
+}
+
+.tweets, .num-of-my-tweets {
+  margin: 5%;
+}
+
+.twittings {
+  white-space: normal;
+  display: inline-block;
+  min-width: auto;
+  max-width: 600px ;
+  height: auto;
+  margin-left: auto;
+  background: rgb(230, 246, 255);
+  float: right;
+  
+}
+
+.tweet-box {
+  display: grid;
+  grid-auto-rows: 150px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tweet-area {
+  width: 100%;
+  font-size: 20px;
+  border: 3px solid #2DAFFF;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.tweet-button-container {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tweet-button {
+  display: grid;
+  margin-left: auto;
+  margin-rignt: 0px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background: #2DAFFF;
+  font-weight: 600;
+}
+
+.tweet-list {
+  list-style-type: none;
+  background: white;
+  padding: 0%;
+  margin-bottom: 0px;
+}
+
+.tweet-list-item {
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  border-top: 1px solid rgb(230, 230, 230)
+}
+
+
+.user-name-in-list, .user-tweet-in-list {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.user-name-in-list {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-tweet-in-list {
+  font-size: 20px;
+}
+

@@ -1,0 +1,56 @@
+
+
+div {
+  
+  align-content: center;
+  max-width: 600px;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+p {
+  
+  align-items: center;
+  background-color: white;
+}
+
+.title, .button {
+  text-align: center;
+  font: 26px Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
+  font-style: normal;
+  font-family: "Gill Sans MT", "Gill Sans", "My Gill Sans",sans-serif;
+  font-weight: 600;
+}
+
+.id, .password, .button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 50px;
+  border: none;
+}
+
+.id, .password {
+  background-color: #F5FAFC;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 3px solid #8BA1AF;
+}
+
+.button {
+  border-radius: 30px;
+  background-color: #2DAFFF;
+  font-size: 20px;
+  color: white;
+  margin: 0 auto;
+  padding: 0px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.button:hover {
+  background-color: #6AC6FF;
+}
