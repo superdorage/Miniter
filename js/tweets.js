@@ -1,6 +1,3 @@
-//#!/usr/bin/env node
-let myName = 'Dan Abramov';
-
 let data = {
     "result": [{
       "contents": "Name It, and They Will Come",
@@ -44,56 +41,6 @@ let data = {
       "user": "Insanehong"
     }]
   }
-
-console.log(data['result'][0]);
-
-function updateTitle() {
-  let title = document.getElementById('h1-title');
-    
-  title.innerHTML = '바뀐 제목!!!';
-    
- // return title;
- // return 0;
-}
-  
-// 주석을 풀고 실행해보세요.
-//updateTitle();
-  
-function addClass(name) {
-  let title = document.getElementsByTagName('h1')[0];
-    
-  title.innerHTML = "wecode.com/img.png";
-}
-// 주석을 풀고 실행해보세요.
-//addClass('title');
-
-  
-function addElement() {
-  let listWrap = document.createElement('ul');
-  console.log('listWrap', listWrap);
-  let list = document.createElement('li');
-  console.log('list', list);
-  let listContent = document.createElement('span');
-  console.log('listContent', listContent);
-
-  listContent.innerHTML = "목록이다";
-  list.appendChild(listContent);
-  listWrap.appendChild(list);
-  
-  document.body.appendChild(listWrap);
-}
-// 주석을 풀고 실행해보세요.
-//addElement();
-  
-function a() {
-  let dom = document.createElement('p');
-  let h1Element = document.createElement('h1');
-  dom.className = 'dom';
-  dom.innerHTML = "DOM";
-  h1Element.appendChild(dom);
-  document.body.appendChild(h1Element);
-}
-//a();
 
 function tweetMapping() {
 
@@ -142,3 +89,6 @@ function myTweetCount() {
 }
 
 myTweetCount();
+
+
+
