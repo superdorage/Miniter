@@ -1,2 +1,2 @@
 # Miniter
-Miniter
+Miniter - Mini Twitter
